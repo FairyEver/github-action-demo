@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: FairyEver/github-action-demo@master
+      uses: FairyEver/github-action-demo@1.0.0
       with:
         who-to-greet: 'FairyEver'
     # Use the output from the `hello` step
